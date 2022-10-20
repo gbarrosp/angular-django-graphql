@@ -1,0 +1,6 @@
+Django==4.1.2
+django-cors-headers==3.13.0
+graphene==3.1.1
+graphene-django==3.0.0
+graphql-core==3.2.3
+graphql-relay==3.2.0
