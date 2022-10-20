@@ -1,0 +1,7 @@
+<div *ngIf="loading">Loading...</div>
+<div *ngIf="error">Error :(</div>
+<div *ngIf="ingredients">
+  <div *ngFor="let ingredient of ingredients">
+    <p>{{ ingredient.id }} - {{ ingredient.name }}</p>
+  </div>
+</div>
